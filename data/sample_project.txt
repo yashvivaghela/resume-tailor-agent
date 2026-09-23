@@ -1,0 +1,38 @@
+Experience
+
+Software Engineer Intern, Acme Corp
+Worked on the internal analytics dashboard team using React and
+Node.js. Built a reusable component library that cut new dashboard
+page development time roughly in half, and fixed a batch of
+long-standing bugs in the CSV export feature. Worked closely with
+2 senior engineers during a 3-month internship.
+
+Teaching Assistant, University CS Department
+Ran weekly lab sections for an intro data structures course, helping
+about 30 students per semester with debugging and algorithm design.
+Held office hours and graded assignments for 2 semesters.
+
+Projects
+
+Self-Debugging Coding Agent
+I built a Python tool that automatically fixes failing unit tests. It
+uses the Anthropic API with tool-calling - the agent can read files,
+write files, and run the pytest suite. It just keeps looping: run
+tests, look at what failed, read the relevant file, write a fix, run
+tests again. In my testing it took the debug time from about 20
+minutes down to around 3 minutes for a handful of intentionally-buggy
+sample bugs I planted.
+
+Personal Finance Dashboard
+
+A React + Flask web app for tracking monthly expenses. Users upload a
+CSV bank statement and it auto-categorizes transactions using simple
+keyword rules, then shows spending trends in charts (recharts). Built
+the whole auth system myself with JWT tokens. Around 200 users tried
+it during a 2-week beta I ran with friends and classmates.
+
+Weather Alert Bot
+Small side project - a Discord bot written in Node.js that pings a
+channel when severe weather alerts are issued for a set of tracked
+zip codes, using the National Weather Service API. Nothing fancy,
+just wanted to learn Discord.js and webhooks.
